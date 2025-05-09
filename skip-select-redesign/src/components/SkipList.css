@@ -1,0 +1,47 @@
+.skip-list {
+  text-align: center;
+  color: white;
+  background-color: #121212;
+  padding: 20px;
+}
+
+.skip-h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.skip-p {
+  font-size: 18px;
+  opacity: 80%;
+  margin-bottom: 20px;
+  color: #bdbdbd;
+}
+
+.skip-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 0 15%;
+}
+
+@media (max-width: 1024px) {
+  .skip-grid {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  .skip-grid {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 5%;
+  }
+
+  .skip-h3 {
+    font-size: 20px;
+  }
+
+  .skip-p {
+    font-size: 16px;
+  }
+}
